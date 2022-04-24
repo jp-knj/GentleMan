@@ -19,7 +19,12 @@ export const Home = () => {
         }
     }
     return (
-        <main className='main'>
+        <motion.div className='main'
+              variants={variant}
+              initial="hidden"
+              animate="visible"
+              exit="exit"
+        >
             <div className='main-container'>
                 <h2>CSS Properties</h2>
             <div className='list-container'>
@@ -41,7 +46,7 @@ export const Home = () => {
                 </section>
             </div>
             </div>
-        </main>
+        </motion.div>
 )
 
 }
