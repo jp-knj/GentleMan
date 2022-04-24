@@ -1,0 +1,12 @@
+.main {
+    padding-top: 80px;
+}
+
+.main-container {
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 24px 16px;
+    max-width: 960px;
+    min-height: calc(100vh - 80px);
+    background-color: #fdfdfd;
+}

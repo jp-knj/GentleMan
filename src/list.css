@@ -1,0 +1,30 @@
+.list-container {
+    margin: 0 -8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.list-container > * + * {
+    margin-top: 2rem;
+}
+.list-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.list-section > * + * {
+    margin-top: 1.5rem;
+}
+.list-title {}
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.list-items {
+    width: calc(33.3% - 20px);
+}
